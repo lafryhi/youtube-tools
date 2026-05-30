@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube Thumbnail Downloader | HD and Full HD Thumbnail Tool</title>
+  <meta name="description" content="Download YouTube video thumbnails in HD, Full HD, and different sizes for free with this simple YouTube thumbnail downloader.">
+  <link rel="canonical" href="https://youtube-tools.vercel.app/youtube-thumbnail-downloader.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="YouTube Thumbnail Downloader">
+  <meta property="og:description" content="Download YouTube video thumbnails in HD, Full HD, and different sizes for free.">
+  <meta property="og:url" content="https://youtube-tools.vercel.app/youtube-thumbnail-downloader.html">
+  <meta property="og:site_name" content="youtube-tools">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="YouTube Thumbnail Downloader">
+  <meta name="twitter:description" content="Preview and download YouTube thumbnails in multiple sizes with a free browser-based tool.">
+  <link rel="stylesheet" href="style.css">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "YouTube Thumbnail Downloader",
+      "url": "https://youtube-tools.vercel.app/youtube-thumbnail-downloader.html",
+      "applicationCategory": "MultimediaApplication",
+      "operatingSystem": "Any",
+      "description": "Download YouTube video thumbnails in HD, Full HD, and different sizes for free.",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    }
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-shell">
+      <a class="brand" href="index.html">youtube-tools</a>
+      <nav class="top-nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="youtube-thumbnail-downloader.html" aria-current="page">Thumbnail Downloader</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="terms-of-service.html">Terms of Service</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero hero-tool">
+      <div class="container narrow">
+        <p class="eyebrow">Free browser tool</p>
+        <h1>YouTube Thumbnail Downloader</h1>
+        <p class="lead">
+          Download YouTube video thumbnails in HD, Full HD, and different sizes for free.
+        </p>
+        <form id="thumbnail-form" class="tool-box" novalidate>
+          <label class="sr-only" for="video-url">YouTube video URL</label>
+          <div class="input-row">
+            <input
+              id="video-url"
+              name="video-url"
+              type="url"
+              placeholder="Paste a YouTube URL here"
+              autocomplete="off"
+              inputmode="url"
+            >
+            <button type="submit" class="button button-primary button-large">Get Thumbnail</button>
+          </div>
+          <p class="input-hint">Supported links: watch, youtu.be, shorts, and embed URLs.</p>
+          <div id="error-message" class="message message-error" role="alert" aria-live="polite" hidden></div>
+        </form>
+      </div>
+    </section>
+
+    <section class="section tool-results-section">
+      <div class="container">
+        <div id="results" class="results-grid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="section section-alt article-section">
+      <div class="container narrow content-flow">
+        <div class="section-heading left-aligned">
+          <p class="eyebrow">Guide</p>
+          <h2>How to download a YouTube thumbnail</h2>
+        </div>
+        <p>
+          Copy the video URL from YouTube, paste it into the field above, and click
+          <strong>Get Thumbnail</strong>. The tool reads the video ID from the link and prepares the common
+          public thumbnail sizes in one place. You can then save a file or copy the image URL.
+        </p>
+
+        <h2>Available thumbnail sizes</h2>
+        <p>
+          The downloader shows four standard sizes: Max Resolution, High Quality, Medium Quality, and Default.
+          This makes it easy to compare options before you download the one that fits your article, draft,
+          mockup, or reference folder.
+        </p>
+
+        <h2>Is it free?</h2>
+        <p>
+          Yes. The tool is completely free to use and runs only in the browser. There is no sign-up flow,
+          no API key, and no backend processing involved.
+        </p>
+
+        <h2>Can I use YouTube thumbnails?</h2>
+        <p>
+          You can download public thumbnail images for viewing and reference, but usage rights depend on the
+          original content and your specific purpose. If you plan to reuse a thumbnail commercially or publish
+          it elsewhere, review copyright, fair use, brand, and permission requirements first.
+        </p>
+
+        <h2>FAQ</h2>
+        <div class="faq-list">
+          <article class="faq-item">
+            <h3>Does this tool work with Shorts links?</h3>
+            <p>Yes. Shorts URLs are supported as long as the link contains a valid YouTube video ID.</p>
+          </article>
+          <article class="faq-item">
+            <h3>Can I use it on my phone?</h3>
+            <p>Yes. The interface is responsive and the action buttons remain clear on smaller screens.</p>
+          </article>
+          <article class="faq-item">
+            <h3>Why does a max resolution image sometimes look unavailable?</h3>
+            <p>Some videos do not expose every size. When that happens, one of the smaller versions may be the best available option.</p>
+          </article>
+        </div>
+        <p class="centered-link">
+          <a class="text-link" href="index.html">Back to the homepage</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-shell">
+      <p>&copy; 2026 youtube-tools</p>
+      <nav aria-label="Footer">
+        <a href="index.html">Home</a>
+        <a href="youtube-thumbnail-downloader.html">Thumbnail Downloader</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="terms-of-service.html">Terms of Service</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
