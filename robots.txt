@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://youtube-tools.vercel.app/sitemap.xml
+Sitemap: https://youtube-tools-beta.vercel.app/sitemap.xml

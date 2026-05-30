@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://youtube-tools.vercel.app/</loc>
+    <loc>https://youtube-tools-beta.vercel.app/</loc>
   </url>
   <url>
-    <loc>https://youtube-tools.vercel.app/youtube-thumbnail-downloader.html</loc>
+    <loc>https://youtube-tools-beta.vercel.app/youtube-thumbnail-downloader.html</loc>
   </url>
   <url>
-    <loc>https://youtube-tools.vercel.app/about.html</loc>
+    <loc>https://youtube-tools-beta.vercel.app/about.html</loc>
   </url>
   <url>
-    <loc>https://youtube-tools.vercel.app/contact.html</loc>
+    <loc>https://youtube-tools-beta.vercel.app/contact.html</loc>
   </url>
   <url>
-    <loc>https://youtube-tools.vercel.app/privacy-policy.html</loc>
+    <loc>https://youtube-tools-beta.vercel.app/privacy-policy.html</loc>
   </url>
   <url>
-    <loc>https://youtube-tools.vercel.app/terms-of-service.html</loc>
+    <loc>https://youtube-tools-beta.vercel.app/terms-of-service.html</loc>
   </url>
 </urlset>
